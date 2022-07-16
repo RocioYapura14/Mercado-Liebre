@@ -1,7 +1,7 @@
 /*GENERAL*/
 
 body {
- background-color:  #ebebeb ;
+ background-color: #ebebeb ;
  margin: 0%;
 }
 
@@ -20,26 +20,34 @@ ul {
 
 .header_principal{
   background-color: #EAC926;
-  width: 150%;
+  width: 320px;
+  
 }
 
 .header_principal_logo{
-  margin-left: 12%;
-  margin-right: 12%;
+  margin-left: 18%;
   width: 200px;
   padding-top: 3%;
 }
 
 .header_principal_buscador {
-  margin-left: 9%;
+  margin-left: 13%;
   margin-top: 4%;
   
 }
 
 .header_principal_texto{
   font-size: 12px;
-  margin-top: 2%;
-  padding-left: 13%;;
+  margin-top: 4%;
+  margin-left: 20%;;
+}
+
+.header_principal_lista1 {
+  display: none;
+}
+
+.header_principal_lista2{
+  display: none;
 }
 
 .burger-menu{
@@ -54,150 +62,123 @@ ul {
  width: 35px;
 }
 
+/*HEADER SECUNDARIO*/
+
+.header_secundario img{
+  width: 320px;
+  height: 80px;
+}
 
 /*MAIN*/
+
+.main_principal{
+  margin-left: 16px;
+  margin-right: 16px;
+}
 
 /*Seccion de Vistas*/
 
 .main_section_vistas{
   font-size: 21px;
   text-align: center;
-  text-transform: uppercase;
+  color: gray;
 }
 
 
-.main_section_1_art_1 p{
-  text-align: center;
-}
-.producto1{
-  font-size: 16px;
-}
-.precio_cafetera{
-  font-size: 18px;
-}
-.descuento_cafetera{
-  font-size: 16px;
-  color:#39b54a;
-}
-
-
-.main_section_1_art_2 p{
+.main_section_articulos{
   text-align: center;
   font-size: 16px;
+  background-color:white;
+  border-radius: 1%;
 }
-.producto2{
+
+.main_section_articulos img{
+  width: 288px;
+  height: 300px;
+}
+
+.informacion{
+  border-top: 1px solid #ebebeb ;
+  margin-bottom: 10px;
+}
+
+.informacion_icono{
+  padding-top: 7px;
+  margin: 0px;
+  color: #39b54a;
+}
+
+.producto_nombre{
   font-size: 16px;
+  margin: 12px;
+  display: none;
 }
-.precio_macbook{
+
+.producto_precio{
   font-size: 18px;
+  margin: 12px;
 }
-.descuento_macbook{
+
+.producto_descuento{
   font-size: 16px;
   color:#39b54a;
+  margin: 12px;
+  margin-bottom: 0px;
+  padding-bottom: 7px ;
 }
 
-
-.main_section_1_art_3 p{
-  text-align: center;
-  font-size: 16px;
-}
-.producto3{
-  font-size: 16px;
-}
-.precio_galaxy{
-  font-size: 18px;
-}
-.descuento_galaxy{
-  font-size: 16px;
-  color:#39b54a;
-}
-
-
-.main_section_1_art_4 p{
-  text-align: center;
-  font-size: 16px;
-}
-.producto4{
-  font-size: 16px;
-}
-.precio_tv{
-  font-size: 18px;
-}
-.descuento_tv{
-  font-size: 16px;
-  color:#39b54a;
-}
 
 /*Seccion de Ofertas*/
 
 .main_section_ofertas{
   font-size: 21px;
   text-align: center;
-  text-transform: uppercase;
-  padding-top: 5px;
+  padding: 5px;
+  color: grey;
+  
 }
 
-.main_section_2_art_1 {
+.main_section_articulos_of {
   text-align: center;
   font-size: 16px;
+  background-color:white;
+  border-radius: 1%;
 }
-.producto1a{
+
+.main_section_articulos_of img{
+  width: 288px;
+  height: 300px;
+  border-radius: 1.5%;
+}
+
+.informacion_2 {
+  border-top: 1px solid #ebebeb ;
+  margin-bottom: 10px;
+}  
+
+.informacion_2_icono{
+  padding-top: 7px;
+  margin: 0px;
+  color: #39b54a;
+}
+
+.producto_nombre_of{
   font-size: 16px;
+  margin: 12px;
+  display: none;
 }
-.precio_cafetera2{
+
+.producto_precio_of{
   font-size: 18px;
+  margin: 12px;
 }
-.descuento_cafetera2{
+
+.producto_descuento_of{
   font-size: 16px;
   color:#39b54a;
-}
-
-
-.main_section_2_art_2 p{
-  text-align: center;
-  font-size: 16px;
-}
-.producto2a{
-  font-size: 16px;
-}
-.precio_macbook2{
-  font-size: 18px;
-}
-.descuento_macbook2{
-  font-size: 16px;
-  color:#39b54a;
-}
-
-
-.main_section_2_art_3 p{
-  text-align: center;
-  font-size: 16px;
-}
-.producto3a{
-  font-size: 16px;
-}
-.precio_galaxy2{
-  font-size: 18px;
-}
-.descuento_galaxy2{
-  font-size: 16px;
-  color:#39b54a;
-}
-
-
-.main_section_2_art_4 p{
-  text-align: center;
-  font-size: 16px;
-}
-.producto4a{
-  font-size: 16px;
-}
-.precio_tv2{
-  font-size: 18px;
-}
-.descuento_tv2{
-  font-size: 16px;
-  color:#39b54a;
+  margin: 12px;
+  margin-bottom: 0px;
+  padding-bottom: 7px ;
 }
 
 
@@ -205,8 +186,9 @@ ul {
 
 footer {
   background-color: white;
-  padding-top: 52px;
+  padding-top: 30px;
   padding-bottom: 20px;
+  margin-top: 20px;
 }
 
 footer p{
@@ -240,4 +222,120 @@ footer p{
  font-size: 12px;
  color: #666;
  margin-bottom: 0px;
+}
+
+@media (min-width: 768px) {
+
+  /*HEADER*/
+  .header_principal{
+    width: 768px;  
+    padding-bottom: 1px;
+  }
+
+  .header_principal_logo{
+    margin-left: 209px;
+    margin-right: 209px ;
+    width: 350px;
+  }
+  
+  .header_principal_buscador {
+    margin-left: 34%;
+    margin-top: 4%;
+  }
+
+  .header_principal_texto{
+    font-size: 15px;
+    margin-top: 2%;
+    margin-left: 264px;
+  }
+
+  .header_principal_lista1 {
+    display:block;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .header_principal_lista2{
+    margin:13px;
+    display: flex;
+    justify-content: space-around;
+    padding:0px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .burger-menu{
+   display: none;
+  }
+
+  /*HEADER SECUNDARIO*/
+  .header_secundario img{
+    width: 780px;
+    height: 160px;
+  }
+
+  /*MAIN*/
+  .main_principal{
+    margin-left: 192px;
+    margin-right: 192px;
+  }
+  
+  .main_section_articulos{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+
+  .producto_nombre{
+   display: block;
+  }
+
+  .main_section_articulos_of {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+
+  .producto_nombre_of{
+    display: block;
+  }
+
+}
+
+@media (min-width: 1024px){
+
+  /*HEADER*/
+  .header_principal{
+    width: 1024px;  
+    padding-bottom: 1px;
+  }
+
+  .header_principal_logo{
+    margin-left: 337px;
+    margin-right: 337px ;
+    width: 350px;
+  }
+  
+  .header_principal_buscador {
+    margin-left: 38%;
+  }
+
+  .header_principal_texto{
+    margin-left: 392px;
+  }
+
+  .header_principal_lista1 {
+    font-size: 16px;
+  }
+  
+  .header_principal_lista2{
+    font-size: 16px;
+  }
+  
+  /*HEADER SECUNDARIO*/
+  .header_secundario img{
+    width: 1024px;
+    height: 240px;
+  }
+
+  .main_principal{
+    margin-left: 300px;
+    margin-right: 300px;
+  }
 }
