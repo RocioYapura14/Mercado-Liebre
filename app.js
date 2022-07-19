@@ -1,7 +1,7 @@
 const express = require ("express");
 const app = express();
 const path = require ("path");
-const port = 2020
+const port = 3030
 
 app.listen(port,() => console.log("Server runing in http://localhost:"+ port));
 app.use(express.static("public"));
