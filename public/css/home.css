@@ -1,14 +1,11 @@
 /*GENERAL*/
-
 body {
  background-color: #ebebeb ;
  margin: 0%;
 }
-
 p {
   font-family:'Roboto', sans-serif;
 }
-
 ul {
   font-family: 'Roboto', sans-serif; 
   font-size: 12px;
@@ -16,46 +13,48 @@ ul {
 }
 
 /*HEADER*/
-
-
 .header_principal{
   background-color: #EAC926;
   width: 320px;
 }
-
 .contenedor{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-
+  flex-wrap: wrap;
 }
 .header_principal_logo{
-  margin: 10px;
-  width: 50%;
+  width: 170px;
   padding-top: 3%;
+  margin-left: 10px;
+  margin-top: 10px;
 }
-
 .header_principal_buscador {
-  padding-top: 3%;
+ padding-top:5%;
+}
+.header_principal_buscador input{
+  width:110px;
+  height: 20px;
   margin:10px;
-  width: 50%;
+  border: white;
+  border-radius: 5%;
 }
-
+.header_principal_buscador button {
+  padding: 1px;
+  margin-left: -25px;
+  background: white;
+  border: none;
+}
 .header_principal_texto{
-
-  font-size: 12px;
-  margin-top: 4%;
-  margin-left: 20%;;
+  font-size: 10px;
+  padding-left: 89px;
 }
-
+  
 .header_principal_lista1 {
   display: none;
 }
-
 .header_principal_lista2{
   display: none;
 }
-
 .burger-menu{
  margin-left: 145px;
  margin-bottom: 12px;
@@ -69,164 +68,151 @@ ul {
 }
 
 /*HEADER SECUNDARIO*/
-
 .header_secundario img{
   width: 320px;
   height: 80px;
 }
 
 /*MAIN*/
-
 .main_principal{
   margin-left: 16px;
   margin-right: 16px;
 }
 
 /*Seccion de Vistas*/
-
 .main_section_vistas{
   font-size: 21px;
   text-align: center;
   color: gray;
 }
-
-
 .main_section_articulos{
   text-align: center;
   font-size: 16px;
   background-color:white;
   border-radius: 1%;
 }
-
 .main_section_articulos img{
   width: 288px;
   height: 300px;
+  border-radius: 1.5%;
 }
-
 .informacion{
-  border-top: 1px solid #ebebeb ;
-  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid #ebebeb;
+  justify-content: center;
 }
-
 .informacion_icono{
-  margin: -18px; 
-  margin-bottom: 0px;
+  margin: -20px; 
+  margin-left: -8px;
 }
 .informacion_icono i{
   color: #39b54a;
   padding: 7px;
   border: 1px solid #39b54a;
   border-radius: 50%; 
+  margin-bottom: 5px;
+  margin-top: 15px;
 }
-
 .producto_nombre{
   font-size: 16px;
-  margin: 12px;
-  display: none;
+  margin-bottom: 12px;
+  margin-top: 0px;
+  padding-bottom: 15px;
 }
-
 .producto_precio{
-  font-size: 18px;
-  margin: 12px;
-}
-
-.producto_descuento{
   font-size: 16px;
+  padding: 5px;
+  margin-bottom: 2px;
+}
+.producto_descuento{
+  font-size: 12px;
   color:#39b54a;
-  margin: 12px;
-  margin-bottom: 0px;
-  padding-bottom: 7px ;
+  padding-top: 13px;
 }
 
 /*Seccion de Ofertas*/
-
 .main_section_ofertas{
   font-size: 21px;
   text-align: center;
   padding: 5px;
   color: grey;
-  
 }
-
 .main_section_articulos_of {
   text-align: center;
   font-size: 16px;
   background-color:white;
   border-radius: 1%;
 }
-
 .main_section_articulos_of img{
   width: 288px;
   height: 300px;
   border-radius: 1.5%;
 }
-
 .informacion_2 {
-  border-top: 1px solid #ebebeb ;
-  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid #ebebeb;
+  justify-content: center;
 }  
-
 .informacion_2_icono{
-  padding-top: 7px;
-  margin: 0px;
-  color: #39b54a;
+  margin: -20px; 
+  margin-left: -8px;
 }
-
+.informacion_2_icono i{
+  color: #39b54a;
+  padding: 7px;
+  border: 1px solid #39b54a;
+  border-radius: 50%; 
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
 .producto_nombre_of{
   font-size: 16px;
-  margin: 12px;
-  display: none;
+  margin-bottom: 12px;
+  margin-top: 0px;
+  padding-bottom: 15px;
 }
-
 .producto_precio_of{
-  font-size: 18px;
-  margin: 12px;
-}
-
-.producto_descuento_of{
   font-size: 16px;
+  padding: 5px;
+  margin-bottom: 2px;
+}
+.producto_descuento_of{
+  font-size: 12px;
   color:#39b54a;
-  margin: 12px;
-  margin-bottom: 0px;
-  padding-bottom: 7px ;
+  padding-top: 13px;
 }
 
 /*FOOTER*/
-
 footer {
   background-color: white;
   padding-top: 30px;
   padding-bottom: 20px;
   margin-top: 20px;
 }
-
 footer p{
   font-size: 16px;
   text-align: center;
 }
-
 .footer_icono{
   color:#0044aa ;
   font-size: 2em;
   margin-top: 2px;
   margin-bottom: 2px;
-  
 }
-
 .footer_titulo{
   font-size: 16px;
   margin-top: 2px;
   margin-bottom: 2px;
   color: #666;
 }
-
 .footer_texto{
   font-size: 14px;
   text-align: center;
   margin: 5px 20px 40px 20px;
   color: #666
 }
-
 .footer_copyright {
  font-size: 12px;
  color: #666;
@@ -240,71 +226,102 @@ footer p{
     width: 768px;  
     padding-bottom: 1px;
   }
-
+  .contenedor{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-around;
+  }
   .header_principal_logo{
-    margin-left: 209px;
-    margin-right: 209px ;
-    width: 350px;
+    width: 34%;
+    margin: 0px;
+    padding-bottom: 10px;
   }
-  
-  .header_principal_buscador {
-    margin-left: 34%;
-    margin-top: 4%;
+  .header_principal_buscador input{
+    width: 210px;
+    height: 29.5px;
+    border-radius: 2px;
+    padding: 0px;
   }
-
+  .header_principal_buscador button{
+   padding: 0px;
+   border-radius: 2px;
+  }
   .header_principal_texto{
-    font-size: 15px;
-    margin-top: 2%;
-    margin-left: 264px;
+    font-size: 14px;
+    margin: 0px;
+    padding-right: 5px;
+    padding-top: 43px;
+    padding-left: 10px;
   }
-
+  .contenedor_2{
+    display:flex;
+    flex-direction: row;
+  }
+  .subcontenedor{
+    border-top: 1px solid gold;
+    width: 50%;
+  }
+  .contenedor_de_lista{
+    display: flex;
+    justify-content: space-around;
+  }
+  .contenedor_de_lista div li{
+    padding-left:10px;
+    padding-right: 10px;
+  }
   .header_principal_lista1 {
     display:block;
     text-align: center;
     font-size: 14px;
+    padding: 0px;
   }
-  
   .header_principal_lista2{
-    margin:13px;
-    display: flex;
-    justify-content: space-around;
-    padding:0px;
+    display: block;
+    text-align: center;
     font-size: 14px;
-    font-weight: bold;
   }
-  
   .burger-menu{
    display: none;
   }
 
   /*HEADER SECUNDARIO*/
   .header_secundario img{
-    width: 780px;
-    height: 160px;
+    width: 768px;
+    height: 180px ;
   }
 
   /*MAIN*/
+
   .main_principal{
-    margin-left: 192px;
-    margin-right: 192px;
+   margin-left: 50px;
+   margin-right: 50px;
   }
-  
+  .main_section_vistas{
+    margin-top: 10px;
+  }
+  .main_section_vistas_container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
   .main_section_articulos{
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    margin-bottom: 20px;
   }
-
   .producto_nombre{
    display: block;
   }
-
+  .main_section_ofertas{
+    margin-top: 0px;
+  }
   .main_section_articulos_of {
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    margin-bottom: 20px;
   }
-
   .producto_nombre_of{
     display: block;
   }
-
 }
 
 @media (min-width: 1024px){
@@ -314,25 +331,26 @@ footer p{
     width: 1024px;  
     padding-bottom: 1px;
   }
-
   .header_principal_logo{
-    margin-left: 337px;
-    margin-right: 337px ;
-    width: 350px;
+    width: 340px;
   }
-  
   .header_principal_buscador {
-    margin-left: 38%;
+    margin-left:0px
   }
-
+  .header_principal_buscador input{
+    width: 340px;
+  }
+  .header_principal_buscador button{
+    margin-left: -35px;
+    font-size: 18px;
+  }
   .header_principal_texto{
-    margin-left: 392px;
+   padding-top: 53px;
+   font-size: 16px;
   }
-
   .header_principal_lista1 {
     font-size: 16px;
   }
-  
   .header_principal_lista2{
     font-size: 16px;
   }
@@ -342,9 +360,34 @@ footer p{
     width: 1024px;
     height: 240px;
   }
-
+  
+  /*MAIN*/
   .main_principal{
-    margin-left: 300px;
-    margin-right: 300px;
+   margin: 0px;
+  }
+  .main_section_vistas{
+    text-align: left;
+    margin-left: 10px;
+  }
+  .main_section_ofertas{
+    text-align: left;
+    margin-left: 10px;
+    padding: 0px;
+  }
+  .main_section_vistas_container{
+   flex-wrap: nowrap;
+  }
+  .articulos{
+    width: 240px;
+  }
+  .articulos img{
+    width: 240px;
+    height: 280px;
+  }
+
+  /*FOOTER*/
+  .footer_container{
+    display: flex;
+    flex-direction: row;
   }
 }
