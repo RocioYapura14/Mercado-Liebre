@@ -1,186 +1,223 @@
 /*GENERAL*/
 body {
- background-color: #ebebeb ;
- margin: 0%;
+  background-color: #ebebeb;
+  margin: 0%;
 }
+
 p {
-  font-family:'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
+
 ul {
-  font-family: 'Roboto', sans-serif; 
+  font-family: 'Roboto', sans-serif;
   font-size: 12px;
   padding-left: 2%;
 }
 
 /*HEADER*/
-.header_principal{
+.header_principal {
   background-color: #EAC926;
   width: 320px;
 }
-.contenedor{
+
+.contenedor {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
-.header_principal_logo{
+
+.header_principal_logo {
   width: 170px;
   padding-top: 3%;
   margin-left: 10px;
   margin-top: 10px;
 }
+
 .header_principal_buscador {
- padding-top:5%;
+  padding-top: 5%;
 }
-.header_principal_buscador input{
-  width:110px;
+
+.header_principal_buscador input {
+  width: 110px;
   height: 20px;
-  margin:10px;
+  margin: 10px;
   border: white;
   border-radius: 5%;
 }
+
 .header_principal_buscador button {
   padding: 1px;
   margin-left: -25px;
   background: white;
   border: none;
 }
-.header_principal_texto{
+
+.header_principal_texto {
   font-size: 10px;
   padding-left: 89px;
 }
-  
+
 .header_principal_lista1 {
   display: none;
 }
-.header_principal_lista2{
+
+.header_principal_lista2 {
   display: none;
 }
-.burger-menu{
- margin-left: 145px;
- margin-bottom: 12px;
- background-color: #0044aa;
- color: #ebebeb;
- font-size: 20px;
- border-color:#0044aa ;
- border-radius: 25%;
- height: 35px;
- width: 35px;
+
+.burger-menu {
+  margin-left: 145px;
+  margin-bottom: 12px;
+  background-color: #0044aa;
+  color: #ebebeb;
+  font-size: 20px;
+  border-color: #0044aa;
+  border-radius: 25%;
+  height: 35px;
+  width: 35px;
 }
 
 /*HEADER SECUNDARIO*/
-.header_secundario img{
+.header_secundario img {
   width: 320px;
   height: 80px;
 }
 
 /*MAIN*/
-.main_principal{
+.main_principal {
   margin-left: 16px;
   margin-right: 16px;
 }
 
 /*Seccion de Vistas*/
-.main_section_vistas{
+.main_section_vistas {
   font-size: 21px;
   text-align: center;
   color: gray;
 }
-.main_section_articulos{
+
+.main_section_articulos {
   text-align: center;
   font-size: 16px;
-  background-color:white;
+  background-color: white;
   border-radius: 1%;
+  transition-duration: 2s;
 }
-.main_section_articulos img{
+
+.main_section_articulos:hover {
+  box-shadow: rgba(0, 0, 0, 4) 8px 8px;
+}
+
+.main_section_articulos img {
   width: 288px;
   height: 300px;
   border-radius: 1.5%;
 }
-.informacion{
+
+.informacion {
   display: flex;
   flex-direction: row;
   border-top: 1px solid #ebebeb;
   justify-content: center;
 }
-.informacion_icono{
-  margin: -20px; 
+
+.informacion_icono {
+  margin: -20px;
   margin-left: -8px;
+  transition-duration: 0.5s;
 }
-.informacion_icono i{
+
+.informacion_icono:hover {
+  transform: rotate(360deg);
+}
+
+.informacion_icono i {
   color: #39b54a;
   padding: 7px;
   border: 1px solid #39b54a;
-  border-radius: 50%; 
+  border-radius: 50%;
   margin-bottom: 5px;
   margin-top: 15px;
 }
-.producto_nombre{
+
+.producto_nombre {
   font-size: 16px;
   margin-bottom: 12px;
   margin-top: 0px;
   padding-bottom: 15px;
 }
-.producto_precio{
+
+.producto_precio {
   font-size: 16px;
   padding: 5px;
   margin-bottom: 2px;
 }
-.producto_descuento{
+
+.producto_descuento {
   font-size: 12px;
-  color:#39b54a;
+  color: #39b54a;
   padding-top: 13px;
 }
 
 /*Seccion de Ofertas*/
-.main_section_ofertas{
+.main_section_ofertas {
   font-size: 21px;
   text-align: center;
   padding: 5px;
   color: grey;
 }
+
 .main_section_articulos_of {
   text-align: center;
   font-size: 16px;
-  background-color:white;
+  background-color: white;
   border-radius: 1%;
+  transition-duration: 2s;
 }
-.main_section_articulos_of img{
+
+.main_section_articulos_of:hover {
+  box-shadow: rgba(0, 0, 0, 4) 8px 8px;
+}
+
+
+.main_section_articulos_of img {
   width: 288px;
   height: 300px;
   border-radius: 1.5%;
 }
+
 .informacion_2 {
   display: flex;
   flex-direction: row;
   border-top: 1px solid #ebebeb;
   justify-content: center;
-}  
-.informacion_2_icono{
-  margin: -20px; 
-  margin-left: -8px;
 }
-.informacion_2_icono i{
+
+.informacion_2_icono i {
   color: #39b54a;
   padding: 7px;
   border: 1px solid #39b54a;
-  border-radius: 50%; 
+  border-radius: 50%;
   margin-bottom: 5px;
   margin-top: 15px;
 }
-.producto_nombre_of{
+
+.producto_nombre_of {
   font-size: 16px;
   margin-bottom: 12px;
   margin-top: 0px;
   padding-bottom: 15px;
 }
-.producto_precio_of{
+
+.producto_precio_of {
   font-size: 16px;
   padding: 5px;
   margin-bottom: 2px;
 }
-.producto_descuento_of{
+
+.producto_descuento_of {
   font-size: 12px;
-  color:#39b54a;
+  color: #39b54a;
   padding-top: 13px;
 }
 
@@ -191,202 +228,255 @@ footer {
   padding-bottom: 20px;
   margin-top: 20px;
 }
-footer p{
+
+footer p {
   font-size: 16px;
   text-align: center;
 }
-.footer_icono{
-  color:#0044aa ;
+
+.footer_icono {
+  color: #0044aa;
   font-size: 2em;
   margin-top: 2px;
   margin-bottom: 2px;
+  transition-duration: 0.2s;
 }
-.footer_titulo{
+
+.footer_icono:hover {
+  color: #EAC926;
+}
+
+.footer_titulo {
   font-size: 16px;
   margin-top: 2px;
   margin-bottom: 2px;
   color: #666;
 }
-.footer_texto{
+
+.footer_texto {
   font-size: 14px;
   text-align: center;
   margin: 5px 20px 40px 20px;
   color: #666
 }
+
 .footer_copyright {
- font-size: 12px;
- color: #666;
- margin-bottom: 0px;
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 0px;
 }
 
 @media (min-width: 768px) {
 
   /*HEADER*/
-  .header_principal{
-    width: 768px;  
+  .header_principal {
+    width: 768px;
     padding-bottom: 1px;
   }
-  .contenedor{
+
+  .contenedor {
     display: flex;
     flex-direction: row;
-   justify-content: space-around;
+    justify-content: space-around;
   }
-  .header_principal_logo{
+
+  .header_principal_logo {
     width: 34%;
     margin: 0px;
     padding-bottom: 10px;
   }
-  .header_principal_buscador input{
+
+  .header_principal_buscador input {
     width: 210px;
     height: 29.5px;
     border-radius: 2px;
     padding: 0px;
   }
-  .header_principal_buscador button{
-   padding: 0px;
-   border-radius: 2px;
+
+  .header_principal_buscador button {
+    padding: 0px;
+    border-radius: 2px;
   }
-  .header_principal_texto{
+
+  .header_principal_texto {
     font-size: 14px;
     margin: 0px;
     padding-right: 5px;
     padding-top: 43px;
     padding-left: 10px;
   }
-  .contenedor_2{
-    display:flex;
+
+  .contenedor_2 {
+    display: flex;
     flex-direction: row;
   }
-  .subcontenedor{
+
+  .subcontenedor {
     border-top: 1px solid gold;
     width: 50%;
   }
-  .contenedor_de_lista{
+
+  .contenedor_de_lista {
     display: flex;
     justify-content: space-around;
   }
-  .contenedor_de_lista div li{
-    padding-left:10px;
+
+  .contenedor_de_lista div li {
+    padding-left: 10px;
     padding-right: 10px;
   }
+
   .header_principal_lista1 {
-    display:block;
+    display: block;
     text-align: center;
     font-size: 14px;
     padding: 0px;
   }
-  .header_principal_lista2{
+
+  .header_principal_lista2 {
     display: block;
     text-align: center;
     font-size: 14px;
   }
-  .burger-menu{
-   display: none;
+
+  .burger-menu {
+    display: none;
   }
 
   /*HEADER SECUNDARIO*/
-  .header_secundario img{
+  .header_secundario img {
     width: 768px;
-    height: 180px ;
+    height: 180px;
   }
 
   /*MAIN*/
 
-  .main_principal{
-   margin-left: 50px;
-   margin-right: 50px;
+  .main_principal {
+    margin-left: 50px;
+    margin-right: 50px;
   }
-  .main_section_vistas{
+
+  .main_section_vistas {
     margin-top: 10px;
   }
-  .main_section_vistas_container{
+
+  .main_section_vistas_container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
   }
-  .main_section_articulos{
+
+  .main_section_articulos {
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
     margin-bottom: 20px;
+    transition-duration: 2s;
   }
-  .producto_nombre{
-   display: block;
+
+  .main_section_articulos:hover {
+    box-shadow: rgba(0, 0, 0, 4) 8px 8px;
   }
-  .main_section_ofertas{
+
+
+  .producto_nombre {
+    display: block;
+  }
+
+  .main_section_ofertas {
     margin-top: 0px;
   }
+
   .main_section_articulos_of {
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
     margin-bottom: 20px;
+    transition-duration: 2s;
   }
-  .producto_nombre_of{
+
+  .main_section_articulos_of:hover {
+    box-shadow: rgba(0, 0, 0, 4) 8px 8px;
+  }
+  
+
+  .producto_nombre_of {
     display: block;
   }
 }
 
-@media (min-width: 1024px){
+@media (min-width: 1024px) {
 
   /*HEADER*/
-  .header_principal{
-    width: 1024px;  
+  .header_principal {
+    width: 1024px;
     padding-bottom: 1px;
   }
-  .header_principal_logo{
+
+  .header_principal_logo {
     width: 340px;
   }
+
   .header_principal_buscador {
-    margin-left:0px
+    margin-left: 0px
   }
-  .header_principal_buscador input{
+
+  .header_principal_buscador input {
     width: 340px;
   }
-  .header_principal_buscador button{
+
+  .header_principal_buscador button {
     margin-left: -35px;
     font-size: 18px;
   }
-  .header_principal_texto{
-   padding-top: 53px;
-   font-size: 16px;
+
+  .header_principal_texto {
+    padding-top: 53px;
+    font-size: 16px;
   }
+
   .header_principal_lista1 {
     font-size: 16px;
   }
-  .header_principal_lista2{
+
+  .header_principal_lista2 {
     font-size: 16px;
   }
-  
+
   /*HEADER SECUNDARIO*/
-  .header_secundario img{
+  .header_secundario img {
     width: 1024px;
     height: 240px;
   }
-  
+
   /*MAIN*/
-  .main_principal{
-   margin: 0px;
+  .main_principal {
+    margin: 0px;
   }
-  .main_section_vistas{
+
+  .main_section_vistas {
     text-align: left;
     margin-left: 10px;
   }
-  .main_section_ofertas{
+
+  .main_section_ofertas {
     text-align: left;
     margin-left: 10px;
     padding: 0px;
   }
-  .main_section_vistas_container{
-   flex-wrap: nowrap;
+
+  .main_section_vistas_container {
+    flex-wrap: nowrap;
   }
-  .articulos{
+
+  .articulos {
     width: 240px;
   }
-  .articulos img{
+
+  .articulos img {
     width: 240px;
     height: 280px;
   }
 
   /*FOOTER*/
-  .footer_container{
+  .footer_container {
     display: flex;
     flex-direction: row;
   }

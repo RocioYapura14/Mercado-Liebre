@@ -102,6 +102,12 @@ label {
     height: 25px;
     background-color: white;
     margin-right: 10px;
+    transition-duration: 0.2s;
+}
+
+.buttons button:hover {
+    background-color: #EAC926;
+    color: white;
 }
 
 
@@ -123,7 +129,13 @@ footer p {
     font-size: 2em;
     margin-top: 2px;
     margin-bottom: 2px;
+    transition-duration: 0.2s;
 }
+
+.footer_icono:hover {
+  color: #EAC926;
+}
+
 
 .footer_titulo {
     font-size: 16px;
