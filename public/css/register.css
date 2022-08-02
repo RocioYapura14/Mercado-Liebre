@@ -1,5 +1,6 @@
 /*GENERAL*/
 body {
+    width: 100%;
     background-color: #ebebeb;
     margin: 0%;
 }
@@ -17,7 +18,7 @@ ul {
 /*HEADER*/
 .header_principal {
     background-color: #EAC926;
-    width: 320px;
+    width: 100%;
 }
 
 .contenedor {
@@ -61,6 +62,7 @@ ul {
 /*MAIN*/
 
 main {
+    width: 100%;
     display: flex;
     justify-content: center;
     font-family: 'Roboto', sans-serif;
@@ -113,6 +115,7 @@ label {
 
 /*FOOTER*/
 footer {
+    width: 100%;
     background-color: white;
     padding-top: 30px;
     padding-bottom: 20px;
@@ -161,7 +164,7 @@ footer p {
 
     /*HEADER*/
     .header_principal {
-        width: 768px;
+       
         padding-bottom: 1px;
     }
 
@@ -239,7 +242,7 @@ footer p {
 
     /*HEADER*/
     .header_principal{
-      width: 1024px;  
+      
       padding-bottom: 1px;
     }
     .header_principal_logo{
